@@ -1,5 +1,5 @@
 def call() {
-  return yaml '''
+  return '''
 apiVersion: v1
 kind: Pod
 spec:
