@@ -4,13 +4,13 @@ This repo is home to the [JobDSL](https://plugins.jenkins.io/job-dsl/) and [shar
 
 Its directory structure mostly follows the official standard:
 
-## `jobs/`:
+## `jobs/`
 
 Files in here are read by the instance's seed job and are intended to create jobs and folders across the instance.
 
 This is referred to as "JobDSL".
 
-## `vars/`:
+## `vars/`
 
 Files in here are treated as shared libraries. They become available for all jobs in the instance to reference, provided they are structured like so:
 
